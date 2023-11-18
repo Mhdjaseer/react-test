@@ -1,0 +1,175 @@
+.Home {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.content {
+  width: 80%;
+  height: auto;
+  /* background-color: rgb(187, 186, 186); */
+  padding: 20px; 
+  display: flex;
+  flex-direction: column;
+}
+
+.api {
+  margin-top: 50px; 
+  width: auto;
+  height: auto;
+  margin-left: auto; 
+}
+
+.api-link {
+  font-size: large;
+  display: flex;
+  align-items: center;
+  text-decoration: none; 
+}
+
+.api-icon {
+  background-color: #f0f0f0; 
+  padding: 8px; 
+  margin-right: 8px;
+}
+
+
+
+.search-container {
+  width: 100%;
+  margin: 60px auto;
+}
+
+.search-input {
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border-style: none;
+  border: 2px solid #b6b6b6; 
+  margin-bottom: 10px;
+}
+
+
+.search-result{
+  list-style: none;
+}
+
+.checkbox-round {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 2px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox-round:checked {
+    background-color: rgb(82, 0, 233);
+}
+.sbt-center{
+  text-align: right;
+}
+ button{
+  width: auto;
+  height: auto;
+  padding: 20px;
+  color: white;
+  background-color: rgb(82, 0, 233);
+  border: none;
+  border-radius: 10px;
+}
+
+.search-info {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #000000; 
+}
+textarea{
+  height: 150px;
+}
+.add-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  /* background-color: red; */
+  border: 3px solid rgb(173, 173, 173);
+}
+
+
+.content-center{
+  margin-top: 100px;
+}
+.heading{
+  display: flex;
+  justify-content: space-between;
+}
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.data-table th, .data-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.action-link {
+  margin-right: 10px;
+  cursor: pointer;
+  color: blue;
+}
+td p{
+  display: inline;
+}
+.confirmation-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8); /* White background with some transparency */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: #fff; /* White background for the modal content */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.confirm-button {
+  background: #4caf50; /* Green color for the Confirm button */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancel-button {
+  background: #f44336; /* Red color for the Cancel button */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
